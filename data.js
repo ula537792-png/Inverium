@@ -8,7 +8,7 @@ const scriptDatabase = [
         version: "1.2.0",
         status: "WORKING",
         updated: "Today",
-        image: "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=800&q=80",
+        image: "ico/Sorcerer Tower Defense.png",
         features: ["Features for fun", "Dupe Visual utilities", "Trade Scam features", "And much more custom logic"],
         requirements: ["Any modern executor"],
         script: `loadstring(game:HttpGet("https://raw.githubusercontent.com/ula537792-png/STD/refs/heads/main/sorcerer%20tower%20defense%20script.lua"))()`
@@ -22,7 +22,7 @@ const scriptDatabase = [
         version: "2.0.4",
         status: "WORKING",
         updated: "Yesterday",
-        image: "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?auto=format&fit=crop&w=800&q=80",
+        image: "ico/FPS One Tab.png",
         features: ["Aim auto-shot", "ESP players", "Speed Hack", "Anti Kick protection"],
         requirements: ["Executor with drawing capabilities"],
         script: `loadstring(game:HttpGet("https://raw.githubusercontent.com/ula537792-png/fpsone-tb-m/refs/heads/main/one%20tab%20fps.lua"))()`
@@ -36,7 +36,7 @@ const scriptDatabase = [
         version: "1.5.1",
         status: "WORKING",
         updated: "3 hours ago",
-        image: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80",
+        image: "ico/Rost Alpha.png",
         features: ["ESP for ores and crates", "Speed hack & FOV settings", "Fly mode", "Aimbot auto-shot and more"],
         requirements: ["Standard Roblox executor"],
         script: `loadstring(game:HttpGet("https://raw.githubusercontent.com/ula537792-png/RostAlpha-ulti/refs/heads/main/multiRostAlpha"))()`
@@ -50,7 +50,7 @@ const scriptDatabase = [
         version: "1.1.2",
         status: "WORKING",
         updated: "Just now",
-        image: "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=800&q=80",
+        image: "ico/Lone Survival.png",
         features: ["ESP for ores and crates", "FOV setting & Fullbright", "Aimbot & Big hit box", "No bullet drop"],
         requirements: ["Any working executor"],
         script: `loadstring(game:HttpGet("https://raw.githubusercontent.com/ula537792-png/Lone/refs/heads/main/Lone%20Survival/Lone.lua"))()`
