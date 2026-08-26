@@ -23,7 +23,7 @@
     <header class="navbar" id="navbar">
         <div class="nav-container">
             <a href="index.html" class="logo">
-                <span class="logo-icon">✦</span>
+                <img src="ico/logo.png" alt="Inverium Logo" class="logo-img">
                 <span class="logo-text">INVERIUM</span>
             </a>
             <nav class="nav-links">
@@ -32,9 +32,9 @@
                 <a href="#faq" class="nav-link">FAQ</a>
             </nav>
             <div class="nav-actions">
-                <a href="https://discord.com" target="_blank" rel="noopener" class="btn btn-discord">
-                    <i data-lucide="message-square"></i>
-                    <span>Discord</span>
+                <a href="https://t.me/inverium_scripts" target="_blank" rel="noopener" class="btn btn-telegram">
+                    <i data-lucide="send"></i>
+                    <span>Telegram</span>
                 </a>
                 <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
             </div>
@@ -46,9 +46,9 @@
             <a href="index.html" class="drawer-link active">Home</a>
             <a href="scripts.html" class="drawer-link">Scripts</a>
             <a href="#faq" class="drawer-link">FAQ</a>
-            <a href="https://discord.com" target="_blank" rel="noopener" class="btn btn-discord btn-full">
-                <i data-lucide="message-square"></i>
-                <span>Discord</span>
+            <a href="https://t.me/inverium_scripts" target="_blank" rel="noopener" class="btn btn-telegram btn-full">
+                <i data-lucide="send"></i>
+                <span>Telegram</span>
             </a>
         </div>
     </div>
@@ -58,8 +58,9 @@
             <section class="hero-section">
                 <div class="container hero-grid">
                     <div class="hero-content">
+                        <!-- Логотип вместо иконки в бейдже -->
                         <div class="badge">
-                            <span class="badge-icon">✦</span>
+                            <img src="ico/logo.png" alt="Badge Logo" class="badge-logo">
                             <span>NEXT-GEN SCRIPT ECOSYSTEM</span>
                         </div>
                         <h1 class="hero-title">
@@ -67,15 +68,15 @@
                             <span class="gradient-text">THE NEXT LEVEL.</span>
                         </h1>
                         <p class="hero-description">
-                            Discover high-performance verified gaming scripts and utilities powered by Inverium.
+                            Engineered for absolute dominance. Discover fully optimized, verified gaming scripts with instant execution and zero-latency performance.
                         </p>
                         <div class="hero-buttons">
                             <a href="scripts.html" class="btn btn-primary">
                                 <span>EXPLORE SCRIPTS</span>
                                 <i data-lucide="arrow-right"></i>
                             </a>
-                            <a href="https://discord.com" target="_blank" rel="noopener" class="btn btn-secondary">
-                                <span>JOIN DISCORD</span>
+                            <a href="https://t.me/inverium_scripts" target="_blank" rel="noopener" class="btn btn-secondary">
+                                <span>JOIN TELEGRAM</span>
                             </a>
                         </div>
                     </div>
@@ -88,7 +89,7 @@
                                     <span class="dot yellow"></span>
                                     <span class="dot green"></span>
                                 </div>
-                                <div class="terminal-title">INVERIUM TERMINAL</div>
+                                <div class="terminal-title">INVERIUM TERMINAL v3.4</div>
                                 <div class="terminal-status">
                                     <span class="status-dot"></span>
                                     <span>ONLINE</span>
@@ -110,8 +111,8 @@
                             </div>
                             <div class="terminal-body">
                                 <div class="line">&gt; initializing core modules...</div>
-                                <div class="line">&gt; syncing database repository...</div>
-                                <div class="line success">&gt; system operational ✓</div>
+                                <div class="line">&gt; bypassing environment checks...</div>
+                                <div class="line success">&gt; system operational & fully synced ✓</div>
                                 <div class="line">&gt; <span class="blinking-cursor">_</span></div>
                             </div>
                         </div>
@@ -123,19 +124,19 @@
                 <div class="container stats-container">
                     <div class="stat-card glass-card">
                         <div class="stat-number" data-target="4">0</div>
-                        <div class="stat-label">GAMES</div>
+                        <div class="stat-label">SUPPORTED GAMES</div>
                     </div>
                     <div class="stat-card glass-card">
                         <div class="stat-number" data-target="4">0</div>
-                        <div class="stat-label">SCRIPTS</div>
+                        <div class="stat-label">ACTIVE SCRIPTS</div>
                     </div>
                     <div class="stat-card glass-card">
                         <div class="stat-number" data-target="1.4" data-decimal="1">0</div><span class="stat-suffix">K</span>
-                        <div class="stat-label">ACTIVE USERS</div>
+                        <div class="stat-label">ACTIVE EXECUTIONS</div>
                     </div>
                     <div class="stat-card glass-card">
                         <div class="stat-number" data-target="99.9" data-decimal="1">0</div><span class="stat-suffix">%</span>
-                        <div class="stat-label">UPTIME</div>
+                        <div class="stat-label">STABILITY RATE</div>
                     </div>
                 </div>
             </section>
@@ -145,7 +146,7 @@
                     <div class="section-header">
                         <div>
                             <h2 class="section-title">FEATURED SCRIPTS</h2>
-                            <p class="section-subtitle">Top verified utilities for your favorite games.</p>
+                            <p class="section-subtitle">Top verified utilities handpicked for your sessions.</p>
                         </div>
                         <a href="scripts.html" class="view-all-link">
                             <span>VIEW ALL</span>
@@ -160,16 +161,20 @@
                 <div class="container">
                     <div class="section-header center">
                         <h2 class="section-title">FAQ</h2>
-                        <p class="section-subtitle">Got questions? We've got answers.</p>
+                        <p class="section-subtitle">Everything you need to know about execution and safety.</p>
                     </div>
                     <div class="faq-container">
                         <div class="faq-item glass-card">
-                            <button class="faq-question"><span>Are scripts updated regularly?</span><i data-lucide="chevron-down"></i></button>
-                            <div class="faq-answer"><p>Yes, our scripts are constantly monitored and patched instantly upon game updates.</p></div>
+                            <button class="faq-question"><span>Are the scripts updated automatically after game patches?</span><i data-lucide="chevron-down"></i></button>
+                            <div class="faq-answer"><p>Yes, our framework monitors updates in real-time and patches loadstrings instantly to ensure uninterrupted gameplay.</p></div>
                         </div>
                         <div class="faq-item glass-card">
-                            <button class="faq-question"><span>Is Inverium completely free?</span><i data-lucide="chevron-down"></i></button>
-                            <div class="faq-answer"><p>All scripts and utilities hosted here are 100% free to use.</p></div>
+                            <button class="faq-question"><span>Do I need a special executor to run Inverium scripts?</span><i data-lucide="chevron-down"></i></button>
+                            <div class="faq-answer"><p>Most scripts are fully compatible with any modern, secure executor supporting standard environment functions.</p></div>
+                        </div>
+                        <div class="faq-item glass-card">
+                            <button class="faq-question"><span>Is Inverium completely free to use?</span><i data-lucide="chevron-down"></i></button>
+                            <div class="faq-answer"><p>All listed scripts and utilities on this platform are 100% free with no hidden key systems or subscriptions.</p></div>
                         </div>
                     </div>
                 </div>
@@ -179,16 +184,19 @@
         <footer class="footer">
             <div class="container footer-grid">
                 <div class="footer-col">
-                    <a href="index.html" class="logo"><span class="logo-icon">✦</span><span class="logo-text">INVERIUM</span></a>
-                    <p class="footer-desc">Premium Script Hub. The ultimate repository for high-performance utilities.</p>
+                    <a href="index.html" class="logo">
+                        <img src="ico/logo.png" alt="Inverium Logo" class="logo-img">
+                        <span class="logo-text">INVERIUM</span>
+                    </a>
+                    <p class="footer-desc">Next-Generation Script Hub. Built for performance, security, and absolute reliability.</p>
                 </div>
                 <div class="footer-col">
                     <h4>PRODUCT</h4>
-                    <ul><li><a href="scripts.html">Scripts</a></li></ul>
+                    <ul><li><a href="scripts.html">Scripts Database</a></li></ul>
                 </div>
                 <div class="footer-col">
                     <h4>COMMUNITY</h4>
-                    <ul><li><a href="https://discord.com" target="_blank" rel="noopener">Discord</a></li></ul>
+                    <ul><li><a href="https://t.me/inverium_scripts" target="_blank" rel="noopener">Telegram Channel</a></li></ul>
                 </div>
                 <div class="footer-col">
                     <h4>SYSTEM STATUS</h4>
