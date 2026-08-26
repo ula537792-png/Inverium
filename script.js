@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
         lucide.createIcons();
     }
 
-    // Mega Smooth Imba Transition Interceptor
+    // Page Transition Interceptor
     document.querySelectorAll('a').forEach(link => {
         const href = link.getAttribute('href');
         if (href && !href.startsWith('#') && !href.startsWith('http') && !link.getAttribute('target')) {
@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 document.body.classList.add('transitioning');
                 setTimeout(() => {
                     window.location.href = href;
-                }, 400);
+                }, 350);
             });
         }
     });
